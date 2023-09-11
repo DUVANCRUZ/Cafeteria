@@ -17,7 +17,7 @@ import {
 
 import Cards from "../cards/Card";
 import Loading from "../../Views/Loading/Loading";
-import SearchBar from "../../components/searchBar/searchBar";
+import SearchBar from "../../Components/SearchBar/SearchBar";
 
 import {
   orderAlphabetic,

@@ -4,15 +4,13 @@ const fs = require("fs");
 const path = require("path");
 const { DB_DEPLOY } = process.env;
 
+console.log(DB_DEPLOY)
+
 const sequelize = new Sequelize(DB_DEPLOY, {
   logging: false,
   native: false,
-  ssl:true,
   dialectOptions: {
-    ssl: {
-      require: true,
-      rejectUnauthorized: false, // Ajusta esto en función de la configuración de tu base de datos
-    },
+    ssl: false, // Desactiva SSL
   },
 });
 
