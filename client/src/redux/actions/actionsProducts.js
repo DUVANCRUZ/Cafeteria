@@ -21,7 +21,7 @@ import {
 
 } from "../actionsType/productsAT";
 
-const urlBackend = 'https://pf-backend-skye.onrender.com'
+const urlBackend = 'https://cafeteria-upsp.onrender.com'
 
 export const orderAlphabetic = (value) => {
   if (value === "asc") {

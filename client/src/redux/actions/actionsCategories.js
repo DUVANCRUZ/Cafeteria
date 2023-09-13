@@ -1,7 +1,7 @@
 import axios from "axios";
 import { GET_ALL_CATEGORIES } from "../actionsType/categoryAT";
 
-const urlBackend = 'https://pf-backend-skye.onrender.com'
+const urlBackend = 'https://cafeteria-upsp.onrender.com'
 
 export const getAllCategories = () => {
     return async function (dispatch) {

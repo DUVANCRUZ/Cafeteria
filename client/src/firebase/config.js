@@ -4,12 +4,13 @@ import { getAuth } from "firebase/auth";
 import { v4 } from "uuid";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBD1ZSoX0SOJHZfBiXRQtRIF0OPnvft9aQ",
-  authDomain: "imegenes-cafeteria-celiaca.firebaseapp.com",
-  projectId: "imegenes-cafeteria-celiaca",
-  storageBucket: "imegenes-cafeteria-celiaca.appspot.com",
-  messagingSenderId: "176700388341",
-  appId: "1:176700388341:web:3711f5a67a95cb0f40e6bc",
+  apiKey: "AIzaSyB4RVHT15N5sqS-siBYj1Cbon2wUQ-v2zU",
+  authDomain: "naruto-a4fb1.firebaseapp.com",
+  projectId: "naruto-a4fb1",
+  storageBucket: "naruto-a4fb1.appspot.com",
+  messagingSenderId: "911070395043",
+  appId: "1:911070395043:web:448220212f5554e2741d16",
+  measurementId: "G-CDQL3WWGWW"
 };
 
 const app = initializeApp(firebaseConfig);
